@@ -1,4 +1,4 @@
-# 🦖 SwiftRun AI — README
+# 👾 SwiftRun AI — README
 - An AI-powered endless-runner game built for iOS using SwiftUI + SpriteKit + CoreML.
 
 # 📌 Overview
