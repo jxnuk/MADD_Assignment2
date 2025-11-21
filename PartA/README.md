@@ -21,7 +21,7 @@ Built as an assignment project for Mobile Application Development (MADD).
 # 🎮 Features
 ## 🕹 Gameplay
 ```
-Running dino hero
+Running player hero
 Jump and shoot buttons
 Parallax environment (sky, mountains, ground)
 Enemy, obstacle, boss AI
