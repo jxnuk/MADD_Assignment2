@@ -1,0 +1,72 @@
+SWIFTRUN AI - TEST CASES FOR PANEL REVIEW
+
+1.  MAIN MENU TESTS
+
+-   Verify all menu buttons navigate correctly.
+-   Confirm theme changes reflect across all screens.
+-   Ensure Settings, Stats, Charts, Help, Credits open properly.
+
+2.  GAMEPLAY TESTS
+
+-   Player can jump using jump button.
+-   Player can shoot using shoot button.
+-   Parallax background scrolls smoothly.
+-   Ground scrolls without gaps.
+-   Player collision with obstacles reduces health.
+-   Player collision with boss reduces extra health.
+-   Game ends when health reaches zero.
+
+3.  ENEMY & OBSTACLE TESTS
+
+-   Obstacles spawn at correct intervals.
+-   Enemies spawn and move across screen.
+-   Projectiles destroy enemies and obstacles.
+-   Destroying obstacles grants 1 coin.
+-   Destroying enemies grants 2 coins.
+
+4.  BOSS TESTS
+
+-   Boss spawns at required distance threshold.
+-   Boss does not spawn twice.
+-   Boss takes multiple hits before dying.
+-   Boss despawns properly when defeated.
+
+5.  CORE DATA TESTS
+
+-   Run is saved after game ends.
+-   StatsView loads all past runs.
+-   Clearing history removes all saved runs.
+
+6.  CORE ML TESTS
+
+-   ML predictions calculate without crashing.
+-   Predictions show on summary view.
+-   Predictions persist in Core Data.
+-   Stats impact ML prediction changes.
+
+7.  PAUSE MENU TESTS
+
+-   Pause freezes game motion.
+-   Resume continues gameplay smoothly.
+-   Quit returns to main menu.
+
+8.  SETTINGS TESTS
+
+-   AI Difficulty toggle affects spawn speeds.
+-   Theme mode updates app appearance.
+-   Sound toggle placeholder works.
+-   Reset to default resets all toggles.
+-   Clear History asks for confirmation.
+
+9.  UI/UX TESTS
+
+-   All screens render correctly on iPhone 13–15.
+-   Buttons respond instantly.
+-   HUD text updates (score, distance, health).
+-   Summary screen shows correct data.
+
+10. ERROR HANDLING TESTS
+
+-   GameView resets scene on replay.
+-   ML does not crash when run history is empty.
+-   No crashes when navigating rapidly.
