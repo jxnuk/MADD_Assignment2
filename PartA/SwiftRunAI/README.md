@@ -191,6 +191,230 @@ saving predictions into Core Data
 displaying predictions on summary screen
 ```
 
+# 🚀 Technologies Used in SwiftRun AI
+- Below is a complete list of every major technology, framework, and system used in your iOS game — grouped clearly.
+
+## 🎨 1. SwiftUI
+```
+SwiftUI is used for all the app’s UI screens, including:
+
+Main menu
+
+Game HUD
+
+Settings
+
+Stats & charts
+
+Summary screen
+
+Pause overlay
+
+SwiftUI handles:
+
+Navigation (NavigationStack)
+
+Modern UI layouts
+
+System-wide themes (dark/light/system)
+
+Button interactions
+
+Glass-style visual effects (.ultraThinMaterial)
+```
+
+## 🎮 2. SpriteKit
+```
+SpriteKit powers the actual gameplay:
+
+Game loop (update())
+
+Player physics
+
+Enemies, boss, obstacles
+
+Projectile shooting
+
+Parallax backgrounds
+
+Collision detection
+
+Physics categories & bit masks
+
+Smooth animations & movements
+
+This is the engine that draws and updates the game world every frame.
+```
+
+## 🧠 3. CoreML
+```
+CoreML is used for machine learning predictions:
+
+Predict player skill level
+
+Predict next run distance
+
+Uses your trained .mlmodel file
+
+Automatically generates Swift classes like
+SwiftRunSkillPredictor
+
+MLManager handles:
+
+Preparing inputs
+
+Running predictions
+
+Returning predictions for summary display
+```
+
+## 🗄️ 4. Core Data
+```
+Core Data stores all gameplay history:
+
+Distance
+
+Duration
+
+Coins collected
+
+Obstacles hit
+
+Predicted skill
+
+Predicted next distance
+
+Core Data files:
+
+PersistenceController.swift
+
+RunStorage.swift
+
+Entity: Run
+
+Used for:
+
+Saving every run
+
+Fetching stats
+
+Clearing history
+
+Feeding ML training features
+```
+
+## 📊 5. Swift Charts
+```
+Swift Charts is used in your Performance Charts screen:
+
+Line charts for distance over time
+
+Bar charts for score per run
+
+Clean visualization for panel demonstration
+
+This is the modern iOS charting framework introduced in iOS 16.
+```
+
+## ⚙️ 6. UserDefaults
+```
+UserDefaults stores persistent settings, including:
+
+AI difficulty toggle
+
+Sound toggle
+
+Theme preference
+
+Reset-to-default options
+
+Stored through your AppSettings class.
+```
+
+## 📱 7. UIKit (indirectly)
+```
+Used for:
+
+Haptics (UINotificationFeedbackGenerator)
+
+Some system UI behaviors behind‐the‐scenes
+
+Your app remains SwiftUI-based, but relies on UIKit for device feedback.
+```
+
+## 🌁 8. Asset Catalog
+```
+Xcode’s asset system stores:
+
+Player sprite
+
+Boss sprite
+
+Enemy sprite
+
+Obstacle sprite
+
+Background sky
+
+Mountain layer
+
+Any UI icons
+
+All sprites are loaded by name through:
+
+SKSpriteNode(imageNamed: "player")
+```
+
+## 🌈 9. Gameplay Logic & Physics
+```
+Powered by SpriteKit:
+
+Gravity
+
+Impulse-based jumping
+
+Non-dynamic rigid bodies
+
+Collision masks
+
+Spawn timers
+
+Difficulty scaling
+
+Parallax movement
+```
+
+## 🔧 10. Xcode 15 Toolchain
+```
+Your project uses:
+
+Swift 5.9
+
+iOS 16+ deployment target
+
+Asset catalogs
+
+Swift Package Manager (built-in)
+
+Auto-generated ML model code
+
+Real-device debugging
+```
+
+# 🎁 Summary Table
+```
+Technology	Purpose
+SwiftUI	UI, menus, HUD, layouts
+SpriteKit	Gameplay engine, physics, animations
+CoreML	Predicting skill & next distance
+Core Data	Saving gameplay runs
+Swift Charts	Performance analytics
+UserDefaults	Settings persistence
+UIKit (Haptics)	Tactile feedback
+Xcode Asset Catalog	Storing game sprites
+Swift / iOS SDK	Core language & platform APIs
+```
+
 # 🧪 Testing Checklist
 ```
 Before submission, check:
