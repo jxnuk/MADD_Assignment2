@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "pixel-art-illustration-power-pole-pixelated-power-line-electric-power-pole-line-icon-pixelated-for-the-pixel-art-game-and-icon-for-website-and-game-free-vector-removebg-preview.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
