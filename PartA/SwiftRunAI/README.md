@@ -48,7 +48,7 @@ Clear run history
 Reset app settings
 ```
 
-# 📁 Project Structure
+# 📁 Project Heirarchy
 ``` shell
 SwiftRunAI/
 │
